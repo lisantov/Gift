@@ -1,0 +1,781 @@
+main
+{
+    width: 80%;
+    height: 2500px;
+    margin-left: 10%;
+    margin-top: 170px;
+    background-color: #012b2b;
+}
+.menu1
+{
+    position: relative;
+    width: 1123px;  
+    height: 250px;
+    float: right;
+    background-image: url("../image/flores.png");
+    background-size: cover;
+}
+.wordmark
+{
+    position: relative;
+    width: 220;
+    height: 65;
+    left: 25;
+    top: 50;
+    cursor: pointer;
+}
+
+.link
+{   
+    position: relative; 
+    color: white; 
+    left: 320; 
+    bottom: 75;
+    cursor: pointer;
+    width: 258px;
+    height: 36px;
+}
+.link:hover
+{
+   transition: all 0.2s;
+    color: gray; 
+}
+.navig1
+{
+    position: relative;
+    left: 275;
+    bottom: 100;
+    cursor: default;
+}
+#h3
+{
+    position: relative;
+    width: 180px;
+    height: 42px;
+    top: 165;
+    right:100;
+    cursor: pointer;
+    color: white;
+}
+#h3:hover
+{
+    transition: all 0.2s;
+    color: gray;
+}
+#h3:hover ~ .dropdown1
+{
+    visibility: visible;
+}
+.dropdown1
+{
+    position: relative;
+    background-color: gray;
+    width: 150px;
+    height: 190px;
+    text-decoration: none;
+    top: 145;
+    right: 50;
+    border-radius: 5px;
+    border: solid 1px white;
+    cursor: pointer;
+    visibility: hidden;
+}
+.dropdown1:hover
+{
+    visibility: visible;
+}
+#mods:hover ~ .gamemodes
+{
+    visibility: visible;
+}
+.dropdown1 a
+{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.dropdown1 a:hover
+{
+    transition: all 0.5s;
+    color: rgb(253, 188, 68);
+    background-color: rgba(253, 253, 89, 0.39);
+}
+.gamemodes
+{
+    position: relative;
+    background-color: gray;
+    width: 150px;
+    height: 190px;
+    left: 150;
+    bottom: 191;
+    text-decoration: none;
+    border-radius: 5px;
+    border: solid 1px white;
+    visibility: hidden;
+}
+.gamemodes:hover 
+{
+    visibility: visible;
+}
+#weapons:hover ~ .gadjets
+{
+    visibility: visible;
+}
+.gadjets
+{
+    position: relative;
+    background-color: gray;
+    width: 150px;
+    height: 38px;
+    left: 150;
+    bottom: 231;
+    text-decoration: none;
+    border-radius: 5px;
+    border: solid 1px white;
+    visibility: hidden;
+}
+.gadjets:hover 
+{
+    visibility: visible;
+}
+#h31
+{
+    position: relative;
+    margin-right: 50px;
+    height: 40px;
+    width: 130px;
+    right: 500;
+    color: white;
+}
+#h31:hover
+{
+    transition: all 0.3s;
+    color: gray;
+}
+#h31:hover ~ .dropdown2
+{
+    visibility: visible;
+}
+.dropdown2
+{
+    position: relative;
+    text-decoration: none;
+    width: 150px;
+    height: 266px;
+    left: 130;
+    bottom: 124;
+    background-color: gray;
+    border: solid 1px white;
+    border-radius: 5px;
+    visibility: hidden;
+}
+.dropdown2:hover
+{
+    visibility: visible;
+}
+.dropdown2 a
+{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+}
+.dropdown2 a:hover
+{
+    transition: all 0.5s;
+    color: rgb(253, 188, 68);
+    background-color: rgba(253, 253, 89, 0.39);
+}
+#h32
+{
+    height: 40px;
+    width: 149px;
+    color: white;
+}
+#h32:hover
+{
+    transition: all 0.3s;
+    color: gray;
+}
+#h32:hover ~ .dropdown3
+{
+    visibility: visible;
+}
+.dropdown3
+{
+    position: relative;
+    text-decoration: none;
+    width: 150px;
+    height: 190px;
+    left: 300;
+    bottom: 470;
+    background-color: gray;
+    border: solid 1px white;
+    border-radius: 5px;
+    visibility: hidden;
+}
+.dropdown3:hover
+{
+    visibility: visible;
+}
+.dropdown3 a
+{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+}
+.dropdown3 a:hover
+{
+    transition: all 0.5s;
+    color: rgb(253, 188, 68);
+    background-color: rgba(253, 253, 89, 0.39);
+}
+#h33
+{
+    color: white;
+}
+#h33:hover
+{
+    transition: all 0.3s;
+    color: gray;
+}
+.amount
+{   
+    position: relative;
+    left: 450;
+    bottom: 925;
+    color: white;
+    font-size: 32;
+}
+.pages
+{
+    position: relative;
+    left: 327;
+    bottom: 900;
+    color: white;
+    font-size: 28;
+}
+.createPage
+{
+    position: relative;
+    width: 250px;
+    height: 50px;
+    left: 520;
+    bottom: 955; 
+    border: solid 1px white;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+.create
+{
+    position: relative;
+    color: white;
+    cursor: pointer;
+    left: 20
+}
+#paper
+{
+    position: relative;
+    right: 150;
+    top: 10;
+}
+#welcome
+{
+    position: relative;
+    top: 135;
+    right: 797;
+    width: 1067px;
+    height: 700px;
+    color: white;
+    cursor: default;
+}
+#h1
+{
+    position: relative;
+    right: 770;
+    top: 355;
+    font-size: 40;
+    width: 200px;
+    height: 70px;
+    color: white;
+    text-align: center;
+}
+.checkCode
+{
+    position: relative;
+    width: 230px;
+    height: 40px;
+    right: 60;
+    top: 55;
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 20;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(196, 148, 16);
+    border-radius: 5px 0px 0px 5px;
+}
+.checkCode:hover
+{
+    transition: all 0.2s;
+    background-color: rgb(135, 101, 7);
+}
+.code
+{
+    position: relative;
+    width: 50px;
+    height: 40px;
+    left: 175;
+    bottom: 85;
+    cursor: pointer;
+    background-color: rgb(196, 148, 16);
+    border-radius: 0px 5px 5px 0px;
+}
+.code:hover
+{
+    transition: all 0.2s;
+    background-color: rgb(135, 101, 7);
+
+}
+.code:hover > .dropdown4
+{
+    visibility: visible;
+}
+.dropdown4
+{
+    position: relative;
+    width: 175px;
+    height: 75px;
+    top: 30;
+    right: 125;
+    border: solid 1px white;
+    border-radius: 5px;
+    background-color: gray; 
+    visibility: hidden;
+}
+.dropdown4:hover
+{
+    visibility: visible;
+}
+.dropdown4 a
+{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+}
+.dropdown4 a:hover
+{
+    transition: all 0.2s;
+    color: rgb(253, 188, 68);
+    background-color: rgba(253, 253, 89, 0.39);
+}
+.share
+{
+    position: relative;
+    left: 250;
+    bottom: 123;
+    width: 50px;
+    height: 35px;
+    background-color: gray;
+    border: solid 1px white;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+.share:hover
+{
+    transition: all 0.2s;
+    background-color: #6b6868;
+    color: darkgray;
+}
+.welcome
+{
+    position: relative;
+    width: 700px;
+    height: 200px;
+    right: 750;
+    top: 120;
+    border: solid 3px yellow;
+    cursor: default;
+    color: white;
+    font-size: 22;
+}
+#link364
+{
+    text-decoration: none;
+}
+#link364:hover
+{
+    cursor: pointer;
+    transition: all 0.2s;
+    color: rgb(161, 141, 73);
+    text-decoration: underline;
+}
+.rules
+{
+    position: relative;
+    font-size: 18;
+    width: 700px;
+    height: 30px;
+    border: solid 1px white;
+    bottom: 17;
+}
+.rules a
+{
+    cursor: pointer;
+}
+.categories
+{
+    position: relative;
+    bottom: 15;
+}
+.categories a
+{
+    position: relative;
+    font-size: 18;
+    cursor: pointer;
+    bottom: 2;
+}
+.slider
+{
+    position: relative;
+    width: 700px;
+    height: 330px;
+    border: solid 3px yellow;
+    right: 750;
+    top: 150;
+    overflow: hidden;
+}
+.slider img
+{
+    width: 700px;
+    height: 350px;
+}
+#s1
+{
+    position: relative;
+    left: 0;
+    bottom: 15;
+    float: left;
+}
+#s2
+{
+    position: relative;
+    bottom: 0;
+    left: 700;
+    float: left;
+}
+#s3
+{
+    position: relative;
+    left: 1360;
+    bottom: 715;
+    float: left;
+}
+#s4
+{
+    position: relative;
+    float: left;
+    left: 2060;
+    bottom: 1065;
+}
+.prev
+{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    right: 730;
+    bottom: 30;
+    border-radius: 90%;
+    background-color: white;
+    text-align: center;
+}
+.next
+{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    right: 90;
+    bottom: 49;
+    border-radius: 90%;
+    background-color: white;
+    text-align: center;
+}
+.mazonriContainer
+{
+    position: relative;
+    width: 700px;
+    height: 500px;
+    border: solid 3px yellow;
+    right: 750;
+    top: 560;
+    display: inline-grid;
+    cursor: default;
+}
+.maz1
+{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    top: 25;
+    left: 25;
+    border:solid 3px yellow;
+    background-image: url("../image/opers.png");
+    cursor: pointer;
+}
+.maz2
+{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    bottom: 181;
+    left: 248;
+    border:solid 3px yellow;
+    background-image: url("../image/updates.png");
+    cursor: pointer;
+}
+.maz3
+{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    bottom: 385;
+    left: 473;
+    border:solid 3px yellow;
+    background-image: url("../image/maps.jpg");
+    cursor: pointer;
+}
+.maz4
+{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    bottom: 350;
+    left: 25;
+    border:solid 3px yellow;
+    background-image: url("../image/gamemodes.png");
+    cursor: pointer;
+}
+.maz5
+{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    bottom: 555;
+    left: 250;
+    border:solid 3px yellow;
+    background-image: url("../image/gamem.png");
+    cursor: pointer;
+}
+.maz6
+{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    bottom: 760;
+    left: 480;
+    border:solid 3px yellow;
+    background-image: url("../image/weapons.jpg");
+    cursor: pointer;
+}
+.glogo
+{
+    position: relative;
+    width: 700px;
+    height: 400px;
+    border: solid 3px yellow;
+    background-image: url("../image/r6s.jpg");
+    background-size: cover;
+    right: 750;
+    top: 600;
+    cursor: default;
+}
+.attackers
+{
+    position: relative;
+    width: 348px;
+    height: 200px;
+    border: solid 3px yellow;
+    background-image: url("../image/attackers.jpg");
+    background-size: cover;
+    top: 400;
+    right: 3;
+    cursor: pointer;
+}
+.atack
+{
+    position: relative;
+    width: 350px;
+    height: 20px;
+    background-color: yellow;
+    color: black;
+}
+.defenders
+{
+    position: relative;
+    width: 347px;
+    height: 200px;
+    border: solid 3px yellow;
+    background-image: url("../image/defenders.jpg");
+    background-size: cover;
+    top: 194;
+    left: 350;
+    cursor: pointer;
+}
+.def
+{
+    position: relative;
+    width: 350px;
+    height: 20px;
+    background-color: yellow;
+    color: black;
+}
+.chat
+{
+    position: relative;
+    width: 250px;
+    height: 150px;
+    border: solid 3px yellow;
+    left: 800;
+    top: 558;
+    cursor: default;
+}
+.disch
+{
+    position: relative;
+    width: 245px;
+    height: 20px;
+    left: 2.5;
+    background-color: yellow;
+    color: black;
+    cursor: default;
+}
+.discord
+{
+
+    position: relative;
+    width: 250px;
+    height: 80px;
+    top: 30;
+    background-image: url("../image/discord.png");
+    cursor: pointer;
+}
+.requested
+{
+    position: relative;
+    width: 250px;
+    height: 370px;
+    border: solid 3px yellow;
+    left: 800;
+    top: 600;
+}
+.req
+{
+    position: relative;
+    width: 245px;
+    height: 20px;
+    color: black;
+    left: 2;
+    background-color: yellow;
+    cursor: default;
+}
+.new
+{
+    position: relative;
+    color: white;
+    bottom: 60;
+}
+.new ul li
+{
+    padding: 5px;
+}
+.new ul li a
+{
+    text-decoration: none;
+    color: orange;
+}
+.barrier1
+{
+    position: relative;
+    width: 250px;
+    height: 2px;
+    background-color: white;
+}
+.forUpd
+{
+    position: relative;
+    color: white;
+    bottom: 40;
+}
+.forUpd ul li
+{
+    padding: 5px;
+}   
+.forUpd ul li a
+{
+    text-decoration: none;
+    color: orange;
+}
+.friends
+{
+    position: relative;
+    width: 250px;
+    height: 200px;
+    border: solid 3px yellow;
+    left: 800;
+    top: 650;
+}
+.druz
+{
+    position: relative;
+    width: 245px;
+    height: 20px;
+    background-color: yellow;
+    color: black;
+    left: 2;
+    text-align: center;
+}
+.splinterc
+{
+    position: relative;
+    width: 250px;
+    height: 50px;
+    top: 20;
+    background-image: url("../image/splinter.png");
+    cursor: pointer;
+}
+.barrier2
+{
+    position: relative;
+    width: 250px;
+    height: 2px;
+    background-color: white;
+    top: 40;
+}
+.ghostr
+{
+    position: relative;
+    width: 250px;
+    height: 50px;
+    background-image: url("../image/ghostr.png");
+    top: 50;
+    cursor: pointer;
+}
+.fandomApp
+{
+    position: relative;
+    width: 200px;
+    left: 1050;
+    bottom: 920;
+    color: white;
+}

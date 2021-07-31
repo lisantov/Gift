@@ -1,0 +1,356 @@
+.wrap
+{
+    margin: auto;
+    padding: auto;
+<<<<<<< HEAD
+}
+.bgImg
+{
+    width: 100%;
+    height: 100%
+    background-color: gray;
+=======
+
+    overflow: scroll;
+    width: 100%;
+    height: 100%;
+    background-image: url("../image/gradient.jpg");
+    background-size: cover;
+>>>>>>> acea6a8 (v0.3 -Finished header, started form content)
+}
+.header
+{
+    width: 100%;
+    height: 50px;
+    background-color: #012b2b;
+}
+.logo
+{
+    float: left;
+    cursor: pointer;
+}
+.navig 
+{
+    float: left;
+    position: relative;
+    right: 25;
+    margin-left: 25px;
+}
+.navig ul
+{
+    display: inline;
+    text-decoration: none;
+}
+.navig li
+{
+    display: inline;
+    text-decoration: none;
+    padding: 13px;
+    float: left;
+    margin-left: 15px;
+}
+.navig li a
+{
+    color: cyan;
+    text-decoration: none;
+    font-size: 20;
+}
+<<<<<<< HEAD
+=======
+#operators
+{
+    font-family: Borsok;
+}
+>>>>>>> acea6a8 (v0.3 -Finished header, started form content)
+#operators:hover
+{
+    transition: all 0.2s;
+    color: white;
+}
+<<<<<<< HEAD
+=======
+#equipment
+{
+    font-family: Borsok;
+}
+>>>>>>> acea6a8 (v0.3 -Finished header, started form content)
+#equipment:hover
+{
+    transition: all 0.2s;
+    color: white;
+}
+<<<<<<< HEAD
+=======
+#maps
+{
+    font-family: Borsok;
+}
+>>>>>>> acea6a8 (v0.3 -Finished header, started form content)
+#maps:hover
+{
+    transition: all 0.2s;
+    color: white;
+}
+.change
+{
+    height: 37px;
+    float: left;
+}
+.change:hover
+{
+    cursor: pointer;
+}
+.change:hover ~ .menu
+{
+    visibility: visible;
+}
+.menu:hover 
+{
+    visibility: visible;
+}
+.wiki
+{
+    height: 50px;
+    cursor: pointer;
+<<<<<<< HEAD
+=======
+    font-family: Borsok;
+>>>>>>> acea6a8 (v0.3 -Finished header, started form content)
+}
+.wiki:hover
+{
+    transition: all 0.2s;
+    color: white;
+}
+.menu
+{
+    position: relative;
+    background-color: white;
+    border-radius: 5px;
+<<<<<<< HEAD
+    border: solid 1px black;
+=======
+>>>>>>> acea6a8 (v0.3 -Finished header, started form content)
+    width: 180px;
+    height: 125px;
+    margin-top: 37px;
+    display: block;
+    cursor: default;
+    visibility: hidden;
+    font-size: 16;
+}
+.menu a
+{
+    padding: 10px;
+}
+#id1, #id2
+{
+    position: relative;
+    text-decoration: none;
+    color: black;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16;
+}
+#id1:hover
+{
+    transition: all 0.2s;
+    background-color: #ebfeff;
+    color: cyan
+}
+#id2:hover
+{
+    transition: all 0.2s;
+    background-color: #ebfeff;
+    color: cyan
+}
+.button
+{
+    position: relative;
+    color: #949494;
+    cursor: pointer;
+    width: 150px;
+    height: 25px;
+    border: solid 1px #949494;
+    border-radius: 2px;
+    text-align: center;
+    display: block;
+    top: 10;
+    left: 15;
+    font-size: 16;
+<<<<<<< HEAD
+=======
+    font-family: Borsok;
+>>>>>>> acea6a8 (v0.3 -Finished header, started form content)
+}
+.button:hover
+{
+    transition: all 0.2s;
+<<<<<<< HEAD
+    border: solid 1px #cfd1d1
+    color: #cfd1d1;
+=======
+    border: solid 1px gray;
+    color: gray;
+>>>>>>> acea6a8 (v0.3 -Finished header, started form content)
+}
+.icon
+{
+    position: relative;
+    width: 160px;
+    height: 200px;
+    margin-left: 1000px;
+    top: 0;
+}
+.hver
+{
+    position: absolute;
+    width: 75px;
+    height: 50px;
+    cursor: pointer;
+    left: 40;
+}
+.hver:hover ~ .dropdown
+{
+    visibility: visible;
+}
+.image
+{
+    position: relative;
+    width: 35px;
+    height: 35px;
+    left: 50;
+    border: solid 1px white;
+    border-radius: 90%;
+    cursor: pointer;
+}
+.image:hover ~ .dropdown
+{
+    visibility: visible;
+}
+.dropdown
+{
+    position: relative;
+<<<<<<< HEAD
+    width: 180px;
+    height: 160px;
+    background-color: white;
+    border: solid 1px black;
+=======
+    width: 200px;
+    height: 160px;
+    background-color: white;
+>>>>>>> acea6a8 (v0.3 -Finished header, started form content)
+    border-radius: 5px;
+    top: 13;
+    visibility: hidden;
+}
+.dropdown:hover
+{
+    visibility: visible;
+}
+.login
+{
+    position: relative;
+<<<<<<< HEAD
+    left: 23;
+=======
+    left: 7;
+>>>>>>> acea6a8 (v0.3 -Finished header, started form content)
+    top: 13;
+    background-color: cyan;
+    border: solid 1px cyan;
+    border-radius: 5px;
+<<<<<<< HEAD
+    width: 135px;
+    height: 30px;
+    cursor: pointer;
+=======
+    width: 185px;
+    height: 30px;
+    cursor: pointer;
+    color: rgb(94, 93, 93);
+    font-family: Borsok;
+>>>>>>> acea6a8 (v0.3 -Finished header, started form content)
+}
+.login:hover
+{
+    transition: all 0.2s;
+    background-color: #08949e;
+    border: solid 1px #08949e;
+}
+.barrier
+{
+    position: relative;
+<<<<<<< HEAD
+    width: 50px
+    height: 1px;
+    border: solid 1px gray;
+    top: 30;
+=======
+    width: 150px;
+    height: 0px;
+    border: solid 1px gray;
+    top: 30;
+    left: 23;
+>>>>>>> acea6a8 (v0.3 -Finished header, started form content)
+}
+#noAcc
+{
+    position: relative;
+<<<<<<< HEAD
+    left: 17;
+=======
+    left: 27;
+>>>>>>> acea6a8 (v0.3 -Finished header, started form content)
+    top: 25;
+    cursor: pointer;
+}
+#noAcc:hover
+{
+    transition: all 0.2s;
+    color: gray;
+    text-decoration: underline;
+}
+.register
+{
+    position: relative;
+<<<<<<< HEAD
+    width: 175px;
+=======
+    width: 185px;
+>>>>>>> acea6a8 (v0.3 -Finished header, started form content)
+    height: 30px;
+    text-align: center;
+    border: solid 1px black;
+    cursor: pointer;
+<<<<<<< HEAD
+    left: 3;
+    top: 20;
+    border-radius: 5px;
+=======
+    left: 7;
+    top: 20;
+    border-radius: 5px;
+    color: rgb(73, 73, 73);
+    font-family: Borsok;
+    font-size: 15;
+>>>>>>> acea6a8 (v0.3 -Finished header, started form content)
+}
+.register:hover
+{
+    transition: all 0.2s;
+<<<<<<< HEAD
+    color: gray;
+    border: solid 1px darkgray;
+=======
+    color: rgb(153, 150, 150);
+    border: solid 1px darkgray;
+}
+@font-face
+{
+    font-family: Borsok;
+    src: url("../fonts/Borsok.ttf");
+>>>>>>> acea6a8 (v0.3 -Finished header, started form content)
+}

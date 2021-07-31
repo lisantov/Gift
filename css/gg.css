@@ -1,0 +1,46 @@
+main
+{
+    width: 80%;
+    height: 2000px;
+    margin-left: 10%;
+    background-color: #012b2b;
+    margin-top: 100px;
+}
+.n1ni
+{
+    width: 99%;
+    height: 245px;
+    background-image: url("../image/bg.png");
+    background-size: cover;
+    border: groove 6px white; 
+}
+.content
+{
+    width: 70%;
+    height: 1650;
+    float: left;
+    margin-top: 100px;
+}
+#n1n1
+{
+    position: relative;
+    font-family: Windmill;
+    color: white;
+    font-size: 60;
+    margin-left: 55%;
+    bottom: 150;
+}
+.barrier3
+{
+    position: relative;
+    height: 2px;
+    width: 650px;
+    margin-left: 90px;
+    bottom: 100;
+    background-color: gray;
+}
+@font-face
+{
+    font-family: Windmill;
+    src: url("../fonts/Windmill.ttf");
+}

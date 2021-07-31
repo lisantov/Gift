@@ -1,0 +1,263 @@
+.wrap
+{
+    margin: auto;
+    padding: auto;
+    overflow: scroll;
+    width: 100%;
+    height: 100%;
+    background-image: url("../image/backg.jpg");
+    background-size: cover;
+}
+.header
+{
+    width: 100%;
+    height: 50px;
+    background-color: #012b2b;
+}
+.logo
+{
+    float: left;
+    cursor: pointer;
+}
+.navig 
+{
+    float: left;
+    position: relative;
+    right: 25;
+    margin-left: 25px;
+}
+.navig ul
+{
+    display: inline;
+    text-decoration: none;
+}
+.navig li
+{
+    display: inline;
+    text-decoration: none;
+    padding: 13px;
+    float: left;
+    margin-left: 15px;
+}
+.navig li a
+{
+    color: cyan;
+    text-decoration: none;
+    font-size: 20;
+}
+#operators
+{
+    font-family: Borsok;
+}
+#operators:hover
+{
+    transition: all 0.2s;
+    color: white;
+}
+#equipment
+{
+    font-family: Borsok;
+}
+#equipment:hover
+{
+    transition: all 0.2s;
+    color: white;
+}
+#maps
+{
+    font-family: Borsok;
+}
+#maps:hover
+{
+    transition: all 0.2s;
+    color: white;
+}
+.change
+{
+    height: 37px;
+    float: left;
+}
+.change:hover
+{
+    cursor: pointer;
+}
+.change:hover ~ .menu
+{
+    visibility: visible;
+}
+.menu:hover 
+{
+    visibility: visible;
+}
+.wiki
+{
+    height: 50px;
+    cursor: pointer;
+    font-family: Borsok;
+}
+.wiki:hover
+{
+    transition: all 0.2s;
+    color: white;
+}
+.menu
+{
+    position: relative;
+    background-color: white;
+    border-radius: 5px;
+    width: 180px;
+    height: 80px;
+    margin-top: 37px;
+    display: block;
+    cursor: default;
+    visibility: hidden;
+    font-size: 16;
+}
+.menu a
+{
+    padding: 10px;
+}
+#id1, #id2
+{
+    position: relative;
+    text-decoration: none;
+    color: black;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16;
+}
+#id1:hover
+{
+    transition: all 0.2s;
+    background-color: #ebfeff;
+    color: cyan
+}
+#id2:hover
+{
+    transition: all 0.2s;
+    background-color: #ebfeff;
+    color: cyan
+}
+.icon
+{
+    position: relative;
+    width: 160px;
+    height: 200px;
+    float: right;
+    margin-right: 100px;
+}
+.hver
+{
+    position: absolute;
+    width: 75px;
+    height: 50px;
+    cursor: pointer;
+    left: 40;
+}
+.hver:hover ~ .dropdown
+{
+    visibility: visible;
+}
+.image
+{
+    position: relative;
+    width: 35px;
+    height: 35px;
+    left: 50;
+    top: 5;
+    border: solid 1px white;
+    border-radius: 90%;
+    cursor: pointer;
+}
+.image:hover ~ .dropdown
+{
+    visibility: visible;
+}
+.dropdown
+{
+    position: relative;
+    width: 200px;
+    height: 160px;
+    background-color: white;
+    border-radius: 5px;
+    top: 13;
+    visibility: hidden;
+}
+.dropdown:hover
+{
+    visibility: visible;
+}
+.login
+{
+    position: relative;
+    left: 7;
+    top: 13;
+    background-color: cyan;
+    border: solid 1px cyan;
+    border-radius: 5px;
+    width: 185px;
+    height: 30px;
+    cursor: pointer;
+    color: black;
+    font-family: Borsok;
+    font-size: 20;
+}
+.login:hover
+{
+    transition: all 0.2s;
+    background-color: #08949e;
+    border: solid 1px #08949e;
+}
+.barrier
+{
+    position: relative;
+    width: 50px;
+    height: 1px;
+    border: solid 1px gray;
+    top: 30;
+    width: 150px;
+    height: 0px;
+    border: solid 1px gray;
+    top: 30;
+    left: 23;
+}
+#noAcc
+{
+    position: relative;
+    left: 27;
+    top: 25;
+    cursor: pointer;
+}
+#noAcc:hover
+{
+    transition: all 0.2s;
+    color: gray;
+    text-decoration: underline;
+}
+.register
+{
+    position: relative;
+    width: 185px;
+    height: 30px;
+    text-align: center;
+    border: solid 1px black;
+    cursor: pointer;
+    left: 7;
+    top: 20;
+    border-radius: 5px;
+    color: black;
+    font-family: Borsok;
+    font-size: 18;
+}
+.register:hover
+{
+    transition: all 0.2s;
+    color: gray;
+    border: solid 1px darkgray;
+}
+@font-face
+{
+    font-family: Borsok;
+    src: url("../fonts/20138.ttf");
+}

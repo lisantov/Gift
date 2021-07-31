@@ -1,0 +1,124 @@
+.footer
+{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-color: #012b2b;
+    margin-top: 400px;;
+}
+.ourRes
+{
+    color: white;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+.ourRes ul
+{
+    text-decoration: none;
+}
+.ourRes ul li
+{
+    text-decoration: none;
+    padding: 10px;
+}
+.ourRes ul li a
+{
+    text-decoration: none;
+    color: rgb(0, 132, 255);
+}
+.ourRes ul li a:hover
+{
+    transition: all 0.5s;
+    color: rgb(177, 208, 243);
+}
+.view
+{
+    position: relative;
+    color: white;
+    margin-left: 550px;
+    bottom: 315;
+}
+.view ul
+{
+    text-decoration: none;
+}
+.view ul li
+{
+    text-decoration: none;
+    padding: 10px;
+}
+.view ul li a
+{
+    text-decoration: none;
+    color: rgb(0, 132, 255);
+}
+.view ul li a:hover
+{
+    transition: all 0.5s;
+    color: rgb(177, 208, 243);
+}
+.community
+{
+    position: relative;
+    color: white;
+    margin-left: 800px;
+    bottom: 670;
+}
+.community ul
+{
+    text-decoration: none;
+}
+.community ul li
+{
+    text-decoration: none;
+    padding: 10px;
+}
+.community ul li a
+{
+    text-decoration: none;
+    color: rgb(0, 132, 255);
+}
+.community ul li a:hover
+{
+    transition: all 0.5s;
+    color: rgb(177, 208, 243);
+}
+.partnerShip
+{
+    position: relative;
+    color: white;
+    margin-left: 810px;
+    bottom: 670;
+}
+.partnerShip ul
+{
+    text-decoration: none;
+}
+.partnerShip ul li
+{
+    text-decoration: none;
+    padding: 10px;
+}
+.partnerShip ul li a
+{
+    text-decoration: none;
+    color: rgb(0, 132, 255);
+}
+.partnerShip ul li a:hover
+{
+    transition: all 0.5s;
+    color: rgb(177, 208, 243);
+}
+.fandomApp
+{
+    position: relative;
+    width: 200px;
+    left: 1050;
+    bottom: 920;
+    color: white;
+}
+@font-face
+{
+    font-family: Borsok;
+    src: url("../fonts/20138.ttf");
+}   
